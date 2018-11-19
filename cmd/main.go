@@ -1,8 +1,7 @@
 package main
 
-import "algorithms/workerpool"
+import "algorithms/playground"
 
 func main() {
-	provider := workerpool.New()
-	workerpool.Expose(provider)
+	playground.GotoWork()
 }
